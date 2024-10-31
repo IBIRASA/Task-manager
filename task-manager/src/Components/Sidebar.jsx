@@ -7,7 +7,7 @@ function Sidebar() {
     <div className="w-64 h-screen bg-white text-white flex flex-col p-4 justify-between">
       <div>
         <div className="text-xl font-bold mb-8 flex items-center space-x-2">
-          <div className="bg-purple-600 w-8 h-8 rounded-md flex items-center justify-center">
+          <div className="bg-blue-500 w-8 h-8 rounded-md flex items-center justify-center">
             <FaBookOpen className="text-gray-100" />
           </div>
           <span className="text-gray-900">Nuegas</span>
@@ -30,8 +30,6 @@ function Sidebar() {
           </Link>
         </nav>
       </div>
-
-      {/* Help Center Section */}
       <div className="bg-gray-800 p-4 rounded-lg mt-8 text-center">
         <div className="flex items-center justify-center mb-2">
           <FaQuestion className="text-white text-2xl" />
